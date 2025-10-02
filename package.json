@@ -1,0 +1,26 @@
+{
+  "name": "ecohabit",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">EcoHabit</h1>\r <h3 align=\"center\">\r     <a href=\"https://www.ecohabit.org/\">EcoHabit.org</a>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "concurrently \"npm start --prefix client\" \"npm start --prefix server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lugenx/ecohabit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lugenx/ecohabit/issues"
+  },
+  "homepage": "https://github.com/lugenx/ecohabit#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
